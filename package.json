@@ -2,9 +2,11 @@
   "name": "omni-vfs-mock",
   "description": "Mock implementation for omni-vfs.",
   "version": "0.0.1",
+  "repository": "https://github.com/Mesoptier/omni-vfs-mock",
+  "license": "MIT",
   "scripts": {
     "test": "mocha test --compilers js:babel-register",
-    "compile": "./node_modules/.bin/babel src -d lib",
+    "compile": "babel src -d lib",
     "prepublish": "npm run compile"
   },
   "main": "lib/omni-mock.js",
