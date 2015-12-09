@@ -11,6 +11,7 @@
   },
   "main": "lib/omni-mock.js",
   "dependencies": {
+    "bluebird": "^3.0.6",
     "omni-tree": "0.0.1",
     "omni-vfs": "0.0.2"
   },
